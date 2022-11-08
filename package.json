@@ -10,11 +10,15 @@
     "react-scripts": "^3.0.1"
   },
   "dependencies": {
+    "all": "^0.0.0",
+    "async_hooks": "^1.0.0",
     "big.js": "^5.2.2",
     "dd-trace": "^3.7.1",
     "github-fork-ribbon-css": "^0.2.1",
+    "perf_hooks": "^0.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "v8": "^0.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

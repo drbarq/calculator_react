@@ -1,11 +1,9 @@
 import React from "react";
 import Display from "./Display";
 import ButtonPanel from "./ButtonPanel";
-import tracer from "dd-trace";
 import calculate from "../logic/calculate";
 import "./App.css";
 
-tracer.init()
 
 export default class App extends React.Component {
   state = {
