@@ -1,7 +1,8 @@
 import React from "react";
-const tracer = require('dd-trace').init()
+
 import Display from "./Display";
 import ButtonPanel from "./ButtonPanel";
+const tracer = require('dd-trace').init()
 import calculate from "../logic/calculate";
 import "./App.css";
 
